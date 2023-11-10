@@ -12,10 +12,12 @@ path.forEach((e)=>{
         console.log(e.dataset.info);
 
         dataSvg.push(e.dataset.info);
-        const res=dataSvg.join(" - ");
-        console.log(dataSvg);
         
-        displayData.textContent=res;
-    })
-})
+        dataSvg.forEach((data)=>{
+            displayData.innerHTML=`
+              <li>${data}</li>
+            `;
+        });
+    });
+});
 

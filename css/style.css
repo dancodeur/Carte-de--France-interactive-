@@ -1,10 +1,29 @@
-.map{
-    float: left;
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 
+p,ul,li{
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 2em;
+    color: white;
+}
+a{
+    color: black;
+}
+
+body{
+    margin: 10;
+    background-color: rgb(44, 165, 225);
+}
 .map path{
    
-    fill:blue;
+    fill:rgb(108, 208, 116);
     transform: color 0.3s;
     stroke: white;
     stroke-width: 2px;
@@ -12,17 +31,23 @@
 }
 
 .map path:hover{
-    fill: aqua;
+    fill: rgb(58, 185, 69);
+    stroke: black;
 }
 
 
-.info{
-    float: right;
-}
+
 
 .map .change{
-    fill:black;
-    stroke: white;
+    fill:white;
+    stroke: rgb(44, 165, 225);
     stroke-width: 2px;
     transition: fill 0.2s;
+}
+
+@media only screen and(max-width:914px) {
+    /* #data-res{
+        position: absolute;
+        right: 500px;
+    } */
 }
