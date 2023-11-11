@@ -22,7 +22,7 @@ path.forEach((e)=>{
         compris.style.display="block";
 
         setTimeout(()=>{
-            compris.innerHTML=`<span data-compris> &#128519; si vous souhaitez consulter d'autres réalisations que j'ai faite voici le lien de mon <a href="https://dancodeur.github.io/dan-portfolio/" target="_blank" style="color:rgb(108, 208, 116)">portfolio.</a></span>`;
+            compris.innerHTML=`<span data-compris> &#128519; si vous souhaitez consulter d'autres projets d'applications web, voici le lien de mon <a href="https://dancodeur.github.io/dan-portfolio/" target="_blank" style="color:rgb(108, 208, 116)">portfolio.</a></span>`;
         },10000);
 
         y.target.classList.add("change");
