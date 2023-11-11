@@ -4,9 +4,11 @@
     text-decoration: none;
 }
 
+
+
 p,ul,li{
     color: white;
-    font-weight: bold;
+    
     font-size: 1em;
 }
 h1,h2,h3,h4,h5,h6{
